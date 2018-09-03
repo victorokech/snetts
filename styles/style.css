@@ -28,7 +28,7 @@ header {
   }
   
 .sticky + .content, .sticky + .sidebar {
-    padding-top: 55px;
+    padding-top: 70px;
   }
 .title {
     float: left;

@@ -26,3 +26,15 @@ function changeImage() {
         profilePhoto.setAttribute ('src','images/profile.jpg');
     }
 }
+
+
+window.onscroll = function() {
+    scroller();
+}
+
+var myHeader = document.getElementById("header");
+
+function scroller() {
+    myHeader.classList.add('sticky');
+    console.log("scrolled");
+}
